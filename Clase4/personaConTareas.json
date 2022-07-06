@@ -1,0 +1,16 @@
+{
+  "persona": {
+    "nombre":"josema",
+    "direccion":{
+      "calle":"fleming",
+      "numero": 1557
+    },
+    "entretenimintos":["Pokemon GO", "Age of Empires", "Programar"]
+  },
+  "tareas": [
+    {"titulo":"Ejercicio 1","estado":"pendiente"},
+    {"titulo":"Ejercicio 2","estado":"en progreso"},
+    {"titulo":"Ejercicio 3","estado":"terminada"},
+    {"titulo":"estudiar","estado":"pendiente"}
+  ]
+}

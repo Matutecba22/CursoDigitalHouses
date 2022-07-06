@@ -1,0 +1,8 @@
+{
+  "nombre":"josema",
+  "direccion":{
+    "calle":"fleming",
+    "numero": 1557
+  },
+  "entretenimientos":["Pokemon GO", "Age of Empires", "Programar"]
+}

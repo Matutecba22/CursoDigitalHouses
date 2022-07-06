@@ -1,0 +1,8 @@
+[
+    {"titulo":"Ejercicio 1","estado":"pendiente"},
+    {"titulo":"Ejercicio 2","estado":"en progreso"},
+    {"titulo":"Ejercicio 3","estado":"terminada"},
+    {"titulo":"estudiar","estado":"terminada"},
+    {"titulo":"estudiar","estado":"pendiente"}]
+
+module.exports = 
