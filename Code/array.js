@@ -1,6 +1,6 @@
 let seriesFavoritasDeAna = ["Game of Thrones", "Breaking Bad", "House of Cards","hola","hola!"];
-let seriesFavoritasDeHector = ["En Terapia", "Recordando el Show de Alejandro Molina","hola","mundo!"]
-console.log(seriesFavoritasDeAna);
+let seriesFavoritasDeHector = ["En Terapia", "Recordando el Show de Alejandro Molina","hola","mundo!"];
+/*console.log(seriesFavoritasDeAna);
 console.log(seriesFavoritasDeHector);
 console.log(seriesFavoritasDeAna[3,4]);
 console.log(seriesFavoritasDeAna[4]);
@@ -26,3 +26,22 @@ console.log(notas);
 console.log(elUltimo);
 
 // shift y unshift
+
+*/
+function verI(serie){   
+    //let otroArray = [];
+    for ( let i = 0; i < seriesFavoritasDeAna.length; i++){
+        if(seriesFavoritasDeAna[i] == serie){
+            return seriesFavoritasDeAna[i]
+        }
+       //otroArray = seriesFavoritasDeAna[i]
+
+        //console.log(seriesFavoritasDeAna[i]);
+        //console.log (nuevoArray1);
+       //return otroArray;
+    };
+}
+
+verI();
+console.log(verI());
+
