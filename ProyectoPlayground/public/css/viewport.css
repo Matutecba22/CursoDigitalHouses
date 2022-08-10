@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.oculto{
+    display: none;
+}
+.contenedor01 {
+    width: 70%;
+    max-width: 900px;
+    padding: 20px;
+    border: solid 5px black;
+    background-color: salmon;
+    margin: auto;
+}
+.contenedor02 {
+    width: 90vw;
+    padding: 20px;
+    border: solid 5px red;
+    background-color: green;
+}
+@media (min-width:570px){
+    .contenedor01 {
+        width: 90%;
+        border: solid 5px salmon;
+        background-color: black;
+        color: white;
+    
+    }
+}
+@media (min-width:900px){
+    .contenedor01 {
+        color: red;
+}
+.oculto{
+    display: block;
+}
+}
+/*
+break poit
+576
+768
+992
+1200
+*/

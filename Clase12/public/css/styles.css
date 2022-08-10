@@ -1,0 +1,62 @@
+header {
+    background-color: #EAC926;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.barra{
+    margin-left: 25px;
+}
+.logo{
+    width: 150px;
+    margin: 20px 0px 10px 25px;
+}
+.boton{
+    text-align: center;
+}
+.burger-menu{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.compras{
+    text-align: center;
+}
+footer {
+        text-align: center;
+}
+.tarjeta{
+    color: blue;
+    width: 2em;
+    margin: 10px;
+    margin: 0 auto;
+
+}
+
+.envio{
+    color: blue;
+    width: 2em;
+    margin: 10px;
+    margin: 0 auto;
+}
+.seguridad{
+    color: blue;
+    width: 2em;
+    margin: 10px;
+    margin: 0 auto;
+     
+}
+footer h4{
+    font-weight: bold;
+    
+}
