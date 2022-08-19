@@ -223,6 +223,8 @@ main section article i:hover{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        font-size: 12px;
+        margin-left: 20px;
     }
     footer .footer {
         display: flex;

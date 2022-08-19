@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: tomato;
+}
+.impar {
+    border: 1px green solid;
+}
+
+.par {
+    border: 1px red solid;
+}

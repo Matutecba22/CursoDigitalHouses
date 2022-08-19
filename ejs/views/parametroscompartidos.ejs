@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parametros Compartidos</title>
+</head>
+<body>
+    <h2>Parametros Compartidos</h2>
+    <p>Lista Clasica</p>
+    <ul>
+        <li>1: Matias</li>
+        <li>2: Mauricio</li>
+        <li>3: Fernando</li>
+        <li>4: Julian</li>
+        <li>5: Paula</li>
+        <li>6: Matilda</li>
+        <li>7: Benjamin</li>
+    </ul>
+    <p> </p>
+    <ul>
+        <% for (let i = 0 ; i < usuarios.length; i++){%>
+            <li><%=usuarios[i]%></li>
+            <%}%>
+    </ul>
+</body>
+</html>
