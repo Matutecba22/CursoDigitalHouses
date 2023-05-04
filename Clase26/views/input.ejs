@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color : <%= (locals.usuario?.color)? usuario.color:'white'%>">
+        
+
+    <%if (locals.usuario?.nombre) {%> 
+        <p>
+            Hola <%=usuario.nombre%>, elegiste un color: <%=usuario.color%>, tu email es: <%=usuario.email%>,
+            tu edad es: <%=usuario.edad%>,
+            
+        </p>
+        
+        <%}%>
+    
+        <%if (locals.errores) {%>
+            
+            <ol>
+                <%for (let error of errores){%>
+                    <li><%= error.msg%></li>
+                    <%}%>
+            </ol>
+            
+            <%}%>
+        <form action="/" method="POST">
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" name="nombre" id="nombre" >
+        <br>
+        <label for="email">Ingrese su Email</label>
+        <input type="email" name="email" id="email" >
+        <br>
+        <label for="edad">Ingrese su Edad</label>
+        <input type="number" name="edad" id="edad" >
+        <br>
+        <label for="color">Selecciones un Color</label>
+        <select name="color" id="color">
+               <option value="">Ninguno</option>
+               <option value="Red">Red</option>
+               <option value="Blue">Blue</option>
+               <option value="Green">Green</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

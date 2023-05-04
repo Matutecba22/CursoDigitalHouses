@@ -21,8 +21,28 @@
     <p> </p>
     <ul>
         <% for (let i = 0 ; i < usuarios.length; i++){%>
-            <li><%=usuarios[i]%></li>
+            <li>
+             <a href="/parametroscompartidos/detalle/<%=usuarios[i].id %> "><%=usuarios[i].name%></a>
+            </li>
             <%}%>
     </ul>
+    <h2>Search</h2>
+    <form action="/search" method="GET">
+        <input type="text" name="search" >
+        <input type="submit" value="Search" >
+    </form>
+ <h1>DELETE</h1>
+
+ <ul>
+    <% for (let i = 0 ; i < usuarios.length; i++){%>
+        <li>
+         <a href="/parametroscompartidos/detalle/<%=usuarios[i].id %> "><%=usuarios[i].name%></a>
+         <form method="post" action="/delete/<%=usuarios[i].id %>?_method=DELETE">
+            <button type="submit">DELETE</button>
+        </form>
+        </li>
+        <%}%>
+        <button>DELETE</button>
+</ul>
 </body>
 </html>
